@@ -35,6 +35,7 @@
 /* global css */
 html {
     font-size: 14px;
+    color: var(--cl-White);
 }
 
 body {
@@ -44,6 +45,23 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+a {
     font-family: 'Raleway', sans-serif;
+}
+
+
+/* actual css */
+
+/* header */
+header {
+    background: linear-gradient(to bottom, var(--cl-DarkBlue-2),
+            var(--cl-DarkBlue-1)), url('../images/bg-curvy-mobile.svg') no-repeat;
+    background-position: center bottom 17rem;
+    background-blend-mode: darken;
+    /* background-color: var(--cl-DarkBlue-1); */
+}
+
+.intro-btn {
+    background: linear-gradient(to right, var(--cl-Cyan) 5%, var(--cl-Blue) 90%);
 }
