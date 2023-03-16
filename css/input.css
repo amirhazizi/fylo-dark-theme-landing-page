@@ -38,6 +38,10 @@ html {
     color: var(--cl-White);
 }
 
+section {
+    margin-top: 7rem;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
