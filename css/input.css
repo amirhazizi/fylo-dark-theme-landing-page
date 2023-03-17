@@ -78,3 +78,18 @@ header {
 .comment-article p {
     font-size: .75rem;
 }
+
+
+/* footer */
+footer {
+    margin-top: 23rem;
+    padding: 14rem 0 3rem 0;
+}
+
+.facebook-icon,
+.twitter-icon,
+.instagram-icon {
+    height: 2rem;
+    width: 2rem;
+    padding: .45rem;
+}
