@@ -73,3 +73,8 @@ header {
 .intro-btn {
     background: linear-gradient(to right, var(--cl-Cyan) 5%, var(--cl-Blue) 90%);
 }
+
+/* section 3 */
+.comment-article p {
+    font-size: .75rem;
+}
