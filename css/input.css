@@ -54,6 +54,10 @@ a {
     font-family: 'Raleway', sans-serif;
 }
 
+p {
+    opacity: .85;
+}
+
 
 /* actual css */
 
