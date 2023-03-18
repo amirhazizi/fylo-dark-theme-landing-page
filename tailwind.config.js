@@ -8,7 +8,11 @@ module.exports = {
         sm: "480px",
         md: "768px",
         lg: "976px",
-        lx: "1440x",
+        lx: "1440px",
+      },
+      maxWidth: {
+        custom: "95rem",
+        custom_2: "90rem",
       },
       // ## Colors
       colors: {

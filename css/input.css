@@ -74,11 +74,6 @@ header {
     background: linear-gradient(to right, var(--cl-Cyan) 5%, var(--cl-Blue) 90%);
 }
 
-/* section 3 */
-.comment-article p {
-    font-size: .75rem;
-}
-
 
 /* footer */
 footer {
@@ -92,4 +87,13 @@ footer {
     height: 2rem;
     width: 2rem;
     padding: .45rem;
+}
+
+@media(min-width:768px) {
+
+
+    footer {
+        padding-top: 14rem;
+    }
+
 }
