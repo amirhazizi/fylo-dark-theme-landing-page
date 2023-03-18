@@ -67,7 +67,6 @@ header {
             var(--cl-DarkBlue-1)), url('../images/bg-curvy-mobile.svg') no-repeat;
     background-position: center bottom 17rem;
     background-blend-mode: darken;
-    /* background-color: var(--cl-DarkBlue-1); */
 }
 
 .intro-btn {
@@ -90,6 +89,11 @@ footer {
 }
 
 @media(min-width:768px) {
+    header {
+        background: linear-gradient(to bottom, var(--cl-DarkBlue-2),
+                var(--cl-DarkBlue-1)), url('../images/bg-curvy-desktop.svg') center bottom -3.5rem no-repeat;
+
+    }
 
 
     footer {

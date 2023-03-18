@@ -28,13 +28,13 @@
   </head>
   <body class="bg-clDarkBlue_2">
     <!-- header -->
-    <header>
+    <header class="">
       <!-- nav -->
-      <nav class="p-6 container mx-auto">
+      <nav class="p-6 container mx-auto lg:max-w-custom">
         <!-- container -->
         <div class="flex justify-between items-center">
           <!-- logo -->
-          <img src="./images/logo.svg" alt="logo.svg" class="h-7" />
+          <img src="./images/logo.svg" alt="logo.svg" class="h-7 md:h-10" />
           <!-- links -->
           <ul class="flex space-x-7 text-clWhite text-sm">
             <!-- link 1 -->
@@ -54,7 +54,9 @@
       </nav>
       <!-- end nav -->
       <!-- header content -->
-      <div class="max-w-sm mx-auto mt-10 text-center space-y-10 md:max-w-4xl">
+      <div
+        class="max-w-sm mx-auto mt-10 text-center space-y-10 md:max-w-4xl md:pb-20"
+      >
         <!-- intro image -->
         <img
           src="./images/illustration-intro.png"
@@ -63,11 +65,13 @@
         <!-- text content -->
         <div class="space-y-7">
           <!-- header -->
-          <h1 class="text-3xl font-bold leading-10">
+          <h1
+            class="text-3xl font-bold leading-10 md:text-5xl md:leading-tight"
+          >
             All your files in one secure location, accessible anywhere.
           </h1>
           <!-- text -->
-          <p class="leading-7 text-lg">
+          <p class="leading-7 text-lg md:max-w-xl md:mx-auto">
             Fylo stores all your most important files in one secure location.
             Access them wherever you need, share and collaborate with friends
             family, and co-workers.
@@ -85,7 +89,7 @@
     <section>
       <!-- container -->
       <div
-        class="grid gap-y-20 max-w-sm mx-auto md:grid-cols-2 md:gap-8 md:max-w-5xl md:mx-auto"
+        class="grid gap-y-20 max-w-sm mx-auto md:grid-cols-2 md:gap-20 md:max-w-6xl md:mx-auto"
       >
         <!-- acrticle 1 -->
         <article class="space-y-10">
@@ -179,7 +183,9 @@
     <!-- section 2 -->
     <section>
       <!-- container -->
-      <div class="max-w-sm p-4 mx-auto space-y-14">
+      <div
+        class="max-w-sm p-4 mx-auto space-y-14 grid gap-14 md:grid-cols-2 md:items-center md:max-w-3xl lg:max-w-5xl xl:max-w-custom_2 md:p-0"
+      >
         <!-- image article -->
         <article>
           <img
@@ -191,12 +197,16 @@
 
         <!-- text article -->
         <article class="space-y-4">
-          <h1 class="text-xl font-bold">Stay productive, wherever you are</h1>
-          <p>
+          <h1
+            class="text-xl font-bold md:text-3xl lg:max-w-sm lg:text-4xl lg:leading-10"
+          >
+            Stay productive, wherever you are
+          </h1>
+          <p class="lg:max-w-xl">
             Never let location be an issue when accessing your files. Fylo has
             you covered for all of your file storage needs.
           </p>
-          <p>
+          <p class="lg:max-w-xl">
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required.
           </p>
