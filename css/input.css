@@ -71,6 +71,17 @@ header {
 
 .intro-btn {
     background: linear-gradient(to right, var(--cl-Cyan) 5%, var(--cl-Blue) 90%);
+    transition: all 250ms ease-in-out;
+}
+
+.intro-btn:hover {
+    background: linear-gradient(to right, hsl(175, 72%, 75%) 5%, hsl(198, 70%, 67%) 90%);
+}
+
+/* section 2 */
+.section-2-link:hover .section-2-link-svg {
+    fill: white;
+
 }
 
 

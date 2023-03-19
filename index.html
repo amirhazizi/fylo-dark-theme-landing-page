@@ -30,24 +30,36 @@
     <!-- header -->
     <header class="">
       <!-- nav -->
-      <nav class="p-6 container mx-auto lg:max-w-custom">
+      <nav class="p-6 container mx-auto md:p-10 lg:max-w-custom">
         <!-- container -->
         <div class="flex justify-between items-center">
           <!-- logo -->
           <img src="./images/logo.svg" alt="logo.svg" class="h-7 md:h-10" />
           <!-- links -->
-          <ul class="flex space-x-7 text-clWhite text-sm">
+          <ul class="flex space-x-7 text-clWhite text-sm md:space-x-10">
             <!-- link 1 -->
             <li>
-              <a class="opacity-75" href="#">Features</a>
+              <a
+                class="opacity-75 transition-all hover:opacity-100 hover:underline"
+                href="#"
+                >Features</a
+              >
             </li>
             <!-- link 2 -->
             <li>
-              <a class="opacity-75" href="#">Team</a>
+              <a
+                class="opacity-75 transition-all hover:opacity-100 hover:underline"
+                href="#"
+                >Team</a
+              >
             </li>
             <!-- link 3 -->
             <li>
-              <a class="opacity-75" href="#">Sign In</a>
+              <a
+                class="opacity-75 transition-all hover:opacity-100 hover:underline"
+                href="#"
+                >Sign In</a
+              >
             </li>
           </ul>
         </div>
@@ -211,11 +223,54 @@
             for live collaboration. No email attachments required.
           </p>
           <a
-            class="opacity-80 flex py-px justify-between border-b border-clCyan items-center w-fit text-clCyan"
+            class="section-2-link opacity-80 flex py-px justify-between border-b border-clCyan items-center w-fit text-clCyan hover:opacity-100 transition-all hover:text-clWhite hover:border-clWhite"
             href="#"
             >See how Fylo works
-            <img class="ml-2" src="./images/icon-arrow.svg" alt=""
-          /></a>
+            <svg
+              width="16"
+              height="16"
+              class="ml-2"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <circle id="b" cx="6" cy="6" r="6" />
+                <filter
+                  x="-25%"
+                  y="-25%"
+                  width="150%"
+                  height="150%"
+                  filterUnits="objectBoundingBox"
+                  id="a"
+                >
+                  <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
+                  <feGaussianBlur
+                    stdDeviation="1"
+                    in="shadowOffsetOuter1"
+                    result="shadowBlurOuter1"
+                  />
+                  <feColorMatrix
+                    values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0"
+                    in="shadowBlurOuter1"
+                  />
+                </filter>
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                <g transform="translate(2 2)">
+                  <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                  <use
+                    class="section-2-link-svg"
+                    fill="#62E0D9"
+                    xlink:href="#b"
+                  />
+                </g>
+                <path
+                  d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
+                  fill="#1B2330"
+                />
+              </g>
+            </svg>
+          </a>
         </article>
         <!-- end text article -->
       </div>
@@ -384,29 +439,43 @@
           <!-- links container 1 -->
           <ul class="space-y-4 lx:pl-12">
             <li>
-              <p>About Us</p>
+              <a href="#" class="opacity-75 transition-all hover:opacity-100">
+                About Us
+              </a>
             </li>
             <li>
-              <a href="#">Jobs</a>
+              <a href="#" class="opacity-75 transition-all hover:opacity-100"
+                >Jobs</a
+              >
             </li>
             <li>
-              <a href="#">Press</a>
+              <a href="#" class="opacity-75 transition-all hover:opacity-100"
+                >Press</a
+              >
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#" class="opacity-75 transition-all hover:opacity-100"
+                >Blog</a
+              >
             </li>
           </ul>
 
           <!-- links container 2 -->
           <ul class="space-y-4 lx:pl-12">
             <li>
-              <p>Contact Us</p>
+              <a href="#" class="opacity-75 transition-all hover:opacity-100"
+                >Contact Us</a
+              >
             </li>
             <li>
-              <a href="#">Terms</a>
+              <a href="#" class="opacity-75 transition-all hover:opacity-100"
+                >Terms</a
+              >
             </li>
             <li>
-              <a href="#">Privacy</a>
+              <a href="#" class="opacity-75 transition-all hover:opacity-100"
+                >Privacy</a
+              >
             </li>
           </ul>
 
