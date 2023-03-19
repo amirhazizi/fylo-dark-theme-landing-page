@@ -103,9 +103,7 @@ footer {
     header {
         background: linear-gradient(to bottom, var(--cl-DarkBlue-2),
                 var(--cl-DarkBlue-1)), url('../images/bg-curvy-desktop.svg') center bottom -2.5rem no-repeat;
-
     }
-
 
     footer {
         padding-top: 14rem;
