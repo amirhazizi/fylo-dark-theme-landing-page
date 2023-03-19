@@ -58,9 +58,23 @@ p {
     opacity: .85;
 }
 
+/* custom scrollbar page */
+::-webkit-scrollbar {
+    width: 1.2rem;
+    background: var(--cl-DarkBlue-3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cl-DarkBlue-4);
+    border-radius: 5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: var(--cl-DarkBlue-1);
+}
 
 /* actual css */
-
 /* header */
 header {
     background: linear-gradient(to bottom, var(--cl-DarkBlue-2),
@@ -83,7 +97,6 @@ header {
     fill: white;
 
 }
-
 
 /* footer */
 footer {
